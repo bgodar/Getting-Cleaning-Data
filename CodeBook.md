@@ -1,4 +1,4 @@
-A Code book that describes the variables, the data and any transformations or work you performed to clean up the data
+# Code Book
 
 ## Variables
 
@@ -6,7 +6,7 @@ ActivityLabel: a character string of one of six possible actions in the study, "
 
 ActivityNum: an integer corresponding to the ActivityLabel, 1-6
 
-The tidy_data_avgs.txt file includes the average of each variable listed below for each activity for each subject.
+The tidy_data_avgs.txt file includes the mean of each variable listed below for each activity for each subject.
 
 Feature Selection (modified from features_info.txt file)
 
