@@ -6,13 +6,13 @@ library(dplyr)
 ## labels, subtrain to Train Subject labels and features to the features label
 ## file
 
-xtest <- read.table("~/Coursera/SamsungData/test/X_test.txt")
-ytest <- read.table("~/Coursera/SamsungData/test/y_test.txt")
-subtest <- read.table("~/Coursera/SamsungData/test/subject_test.txt")
-xtrain <- read.table("~/Coursera/SamsungData/train/X_train.txt")
-ytrain <- read.table("~/Coursera/SamsungData/train/y_train.txt")
-subtrain <- read.table("~/Coursera/SamsungData/train/subject_train.txt")
-features <- read.table("~/Coursera/SamsungData/features.txt", 
+xtest <- read.table("test/X_test.txt")
+ytest <- read.table("test/y_test.txt")
+subtest <- read.table("test/subject_test.txt")
+xtrain <- read.table("train/X_train.txt")
+ytrain <- read.table("train/y_train.txt")
+subtrain <- read.table("train/subject_train.txt")
+features <- read.table("features.txt", 
                        stringsAsFactors = FALSE)
 
 ## Merge xtest, ytest and subtest, store as test.
