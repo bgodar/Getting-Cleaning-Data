@@ -1,16 +1,16 @@
 # Getting-Cleaning-Data
-Programming Assignment for Getting and Cleaning Data Course
+## Programming Assignment for Getting and Cleaning Data Course
 
 
 This analysis is performed on the Human Activity Recognition Using Smartphones Data Set (more source information below).
 
-The run_analysis.R script takes the test files and the training files and merges them into a single dataset called full. It tidies the data sets, adding column names from the features.txt file from the original download and merging it with the type of activity that was being performed for each operation.
+The run_analysis.R script takes the test files and the training files and merges them into a single dataset called full. It tidies the data, adding column names from the features.txt file from the original download and merging it with the type of activity that was being performed for each operation and the subject.
 
 The run_analysis.R script then subsets the full data set to extract only the measurements of mean and standard deviation, creating a new data set called stdmean. The script then adds a column with activity labels ("WALKING", "WALKING_UPSTAIRS", etc.) corresponding to the activity label numbers (1-6). It renames the numbered column "ActivityNum" and the character column "ActivityLabel".
 
 From the stdmean data set, the script then creates a second, independent tidy data set with the average of each variable for each activity and each subject, called avg. The script then writes that data to a new file.
 
-Further information on the data set:
+## Further information on the data set:
 
 Source:
 
